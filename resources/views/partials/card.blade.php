@@ -9,7 +9,8 @@
                 <span class="star"><i class="fas fa-star"></i></span>
                 <span class="star"><i class="fas fa-star"></i></span>
             </p>
-            <p class="card-text">Pro-Craft by Hilka 18V Li-Ion Cordless Drill with 2 Battery ...</p>
+            <p class="card-text">{{$product->name}}</p>
+            <p class="card-text">$ {{$product->price}}</p>
             <a href="#" class="main-btn">More detail</a>
         </div>
     </div>

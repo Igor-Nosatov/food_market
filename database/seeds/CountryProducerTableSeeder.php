@@ -12,7 +12,7 @@ class CountryProducerTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categories')->insert([
+        DB::table('country_producers')->insert([
             [
                 'name' => 'Poland',
             ],

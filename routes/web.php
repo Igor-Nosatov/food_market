@@ -17,14 +17,14 @@ Route::get('/cart', 'CartController@index')->name('cart');
 
 Route::get('/checkout', 'CheckoutController@index')->name('checkout');
 
+Route::get('/contact', 'ContactController@index')->name('contact');
+
 Route::get('/product', 'ProductController@index')->name('product');
 
 Route::get('/shop', 'ShopController@index')->name('shop');
 
+Route::get('/{category}', 'ShopController@category')->name('category');
+
 Route::get('/wishlist', 'WishlistController@index')->name('wishlist');
 
-Route::get('/blog', 'BlogController@index')->name('blog');
 
-Route::get('/blogpage', 'BlogPageController@index')->name('blogpage');
-
-Route::get('/contact', 'ContactController@index')->name('contact');
